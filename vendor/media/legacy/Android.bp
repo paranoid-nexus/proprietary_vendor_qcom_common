@@ -4,8 +4,8 @@
 
 soong_namespace {
     imports: [
-        "hardware/qcom/display",
         "vendor/qcom/common/vendor/dsprpcd",
+        "vendor/qcom/opensource/display",
     ],
 }
 

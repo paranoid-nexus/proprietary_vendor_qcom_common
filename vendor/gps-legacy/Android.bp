@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "hardware/qcom-caf/gps-legacy",
         "vendor/qcom/common/vendor/display/4.19",
         "vendor/qcom/common/vendor/display/5.4",
         "vendor/qcom/common/vendor/qseecomd-legacy",

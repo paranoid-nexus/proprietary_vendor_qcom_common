@@ -4,8 +4,8 @@
 
 soong_namespace {
     imports: [
-        "hardware/qcom/display",
-        "hardware/qcom/display/gralloc",
+        "hardware/qcom-caf/sm8350",
+        "vendor/qcom/opensource/display",
     ],
 }
 

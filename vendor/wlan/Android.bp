@@ -3,6 +3,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "hardware/qcom-caf/wlan",
+    ],
 }
 
 cc_prebuilt_library_shared {
